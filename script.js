@@ -25,6 +25,10 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
     function mostraPergunta() {
         perguntaAtual = perguntas[atual];
         caixaPerguntas.textContent = perguntaAtual.enunciado;
+        mostraAlternativas(); 
 }
+function mostraAlternativas() {
+    perguntaAtual = perguntas[atual];
+caixaPerguntas.textContent = perguntaAtual.enunciado;
 mostraPergunta();
-
+}
