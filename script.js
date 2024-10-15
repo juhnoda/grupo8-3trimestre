@@ -28,7 +28,16 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
         mostraAlternativas(); 
 }
 function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas)
+    const botaoAlternativas = document.createElement("button");
+    botaoAlternativas.textContent = alternativa;
+    caixaAlternativas.appendChild(botaoAlternativas);
     perguntaAtual = perguntas[atual];
 caixaPerguntas.textContent = perguntaAtual.enunciado;
 mostraPergunta();
 }
+const perguntas = [
+    {
+    enunciado: "Insira o enunciado da Pergunta 1",
+    alternativas: ["Alternativa 1”, “Alternativa 2"],
+    },
