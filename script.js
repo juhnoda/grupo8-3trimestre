@@ -14,7 +14,7 @@ const perguntas = [
     alternativas: ["Alternativa 1", "Alternativa 2"],
     },
     {
-    enunciado: "Insira o enunciado da Pergunta 3",
+    enunciado: "Pergunta 3",
     alternativas: ["Alternativa 1”, “Alternativa 2"]
     },
     ];
